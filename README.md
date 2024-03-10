@@ -60,3 +60,5 @@ ložiska
 
 pásy(odhad)
 
+CELKEM:
+
