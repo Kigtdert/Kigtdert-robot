@@ -40,6 +40,8 @@ rezistory
 
 konektory 
 
+dutinkové lišty
+
 kabely
 
 DHT11
