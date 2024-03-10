@@ -9,28 +9,52 @@ První kód je pro arduino nano ve spodní části robota, druhý je pro ESP32 C
 Po startu dvakrát pípne piezo a zabliká bílá LEDka na ESP32. Také se rozsvítí zelená indikační LED. Samotné ESP32 ovládá jen laser, servomotor SG90 otáčející věží a vestavěnou bílou LEDku. Zbytek příkazů odesílá do arduina které je zpracuje a na jejich základě podnikne akce, např pohyb dopředu. Arduino ovládá H bridge L298 s čtyřmi motory GA12-N20, OLED display SSD1306, kapacitní tlačítko pro přepínání zobrazení displaye, DHT11 senzor teploty a vlhkosti, piezo, zjištuje stav napětí baterie (dokáže odhadnout když je vybitá a dát to audiovizuálně najevo), indikační 3mm LED a 3 termistory pro zjišťování teploty součástek. To má zabránit přehřátí H-bridge, step downu a baterie. Později se počítá s jejich odstraněním, pokud nebudou žádné přehřívací problémy nebo přesunutím na jiné součástky.
 
 Ceny součástek:
+
 Arduino nano
+
 esp32 cam
+
 custom PCB
+
 sg90 servo
+
 laser
+
 anténa+kabel
+
 step down XL4005
+
 H bridge l298
+
 piezo
+
 logický převodník
+
 vypínač
+
 baterie
+
 LEDky
+
 rezistory
+
 konektory 
+
 kabely
+
 DHT11
+
 OLED SSD1306
+
 kapacitní tlačítko
+
 motory
+
 termistory
+
 ložiska
+
 3D tištěné díly(hmotnost+odhad)
+
 pásy(odhad)
 
