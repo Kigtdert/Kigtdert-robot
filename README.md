@@ -12,53 +12,78 @@ Ceny součástek:
 
 Arduino nano 
 168kč
+
 esp32 cam
 348kč
+
 custom PCB
 50kč
+
 sg90 servo
 62kč
+
 laser
 12kč
+
 anténa+kabel
 98+38 kč
+
 step down XL4005
 48kč
+
 H bridge l298
 58kč
+
 piezo
 4-6kč
+
 logický převodník
 16kč
+
 vypínač
 8kč
+
 baterie
 +-500kč
+
 LEDky
 2kč
+
 rezistory
 3.20kč
+
 konektory 
 5.10kč
+
 dutinkové lišty
 13kč
+
 kabely
 81kč
+
 DHT11
 55kč
+
 OLED SSD1306
 98kč
+
 kapacitní tlačítko
 6kč
+
 motory
 420kč
+
 termistory
 26.40kč
+
 ložiska
 +-200kč
+
 3D tištěné díly(hmotnost+odhad)
+300g - 100kč materiál + 100kč energie
 
 pásy(odhad)
 150kč
-CELKEM:
+
+CELKEM: 2671,7kč bez dopravy (většina z laskakitu)
 
