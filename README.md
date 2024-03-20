@@ -1,5 +1,5 @@
 # Kigtdert-robot
-ESP32/arduino projekt robota.
+ESP32/arduino projekt robota. //////
 Plastové části jsou navržené ve Fusion 360 a vytištěné na 3D tiskárně. Gumové pásy se otáčí na dvou kolech každý. Každé kolo má ložiska z obou stran, což zajišťuje plynulý chod bez zadrhávání. Celá konstrukce je v celku robustní, nejslabší místo je v uchycení věže. Ta drží jen na samotném servu. Fyzický vypínač se nachází na zadní straně spodní části robota. na vrchní části se nachází krytka konektoru napájení a OLED display s kapacitní tlačítkem, schovaným pod tenkou vrstvou plastu. na přední straně se nachází indikační dioda. Zeleně svítí pokud je robot zapnutý, pokud problikává rychle červená, je vybitá baterie, pokud pomaleji, některá z kontrolovaných součástek se přehřívá a je třeba počkat, nejlépe robota vypnout. Na levém boku je schovaný DHT11 senzor teploty a vlhkosti.
 Vpravo jsou čtyři konektory, sloužící nahrání programu do arduina bez nutnosti rozdělávat tělo robota. Ke stejnému účelu, akorát pro ESP32 slouží 5 konektorů na pravé straně věže. na stejné straně je i modul laseru. Nalevo je WIFI anténa ESP32. Zepředu je kamera ESP32 a bílá LED pro osvětlení.
 
