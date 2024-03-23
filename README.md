@@ -67,6 +67,9 @@ DHT11
 OLED SSD1306
 98kč
 
+modul pro 433Mhz komunikaci + přijímač
+98kč
+
 kapacitní tlačítko
 6kč
 
