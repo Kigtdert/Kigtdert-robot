@@ -166,7 +166,7 @@ static esp_err_t cmd_handler(httpd_req_t *req)
   else if (!strcmp(variable, "car")) {
     if (val == 1) {
       //Serial.println("Forward");
-      Serial.println("1");
+      Serial.println("7");
     }
     else if (val == 2) {
       //Serial.println("Turn Left");
@@ -329,7 +329,6 @@ void startCameraServer()
         .user_ctx  = NULL
     };
     
-    Serial.printf("Starting web server on port: '%d'\n", config.server_port);
     if (httpd_start(&camera_httpd, &config) == ESP_OK) {
         httpd_register_uri_handler(camera_httpd, &index_uri);
         httpd_register_uri_handler(camera_httpd, &cmd_uri);
@@ -338,7 +337,6 @@ void startCameraServer()
 
     config.server_port += 1;
     config.ctrl_port += 1;
-    Serial.printf("Starting stream server on port: '%d'\n", config.server_port);
     if (httpd_start(&stream_httpd, &config) == ESP_OK) {
         httpd_register_uri_handler(stream_httpd, &stream_uri);
     }
@@ -405,16 +403,11 @@ void setup() {
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
   }
-  Serial.println("");
-  Serial.println("WiFi connected");
 
   startCameraServer();
-
-  Serial.print("Camera Ready! Use 'http://");
-  Serial.print(WiFi.localIP());
-  Serial.println("' to connect");
+  Serial.println("//");
+  Serial.println(WiFi.localIP());
 
   for (int i = 0; i < 5; i++) {
     ledcWrite(3, 10);
