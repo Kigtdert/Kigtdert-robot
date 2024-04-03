@@ -75,6 +75,20 @@ void setup() {
   digitalWrite(4, HIGH);
   delay(250);
   digitalWrite(4, LOW);
+  while (!Serial2.available()) {
+
+}
+    String zprava3 = Serial2.readString();
+    String zprava4 = zprava3.substring(0,1);
+    if (zprava4=="1"){
+    display.clearDisplay();
+    display.setCursor(0,0);
+    display.print("IP adresa: ");
+    display.setCursor(0,16);
+    display.print(zprava3);   //ip adresa serveru
+    display.display();
+    delay(10000);
+    }
 }
 
 void loop() {
@@ -136,13 +150,7 @@ while (!Serial2.available()) {
     
 switch (motory1) {
   case 1:
-    display.clearDisplay();
-    display.setCursor(0,0);
-    display.print("IP adresa: ");
-    display.setCursor(0,16);
-    display.print(zprava1);//ip adresa serveru
-    display.display();
-    delay(10000);
+  //omezení ip adresou
     break;
   case 2: 
     doleva();
@@ -172,6 +180,7 @@ switch (motory1) {
     display.print(text);
     display.display();
     display.setTextSize(2);
+    delay(10000);
     break;
   case 9:   
     String radio = zprava1.substring(1);
