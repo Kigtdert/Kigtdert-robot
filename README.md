@@ -14,40 +14,40 @@ Musí se vytáhnout RST propojka hned po doběhnutí progressbaru
 Ceny součástek:
 
 Arduino nano 
-168kč
+168kč // 68kc
 
 esp32 cam
-348kč
+348kč  //160kc
 
 custom PCB
 50kč
 
 sg90 servo
-62kč
+62kč //24kc
 
 laser
-12kč
+12kč //8kc
 
 anténa+kabel
-98+38 kč
+98+38 kč  //65+23kc
 
 step down XL4005
-48kč
+48kč  //22kc
 
 H bridge l298
-58kč
+58kč  //43kc
 
 piezo
 4-6kč
 
 logický převodník
-16kč
+16kč //4kc
 
 vypínač
 8kč
 
 baterie
-+-500kč
++-500kč  //200kč
 
 LEDky
 2kč
@@ -62,28 +62,26 @@ dutinkové lišty
 13kč
 
 kabely
-81kč
+81kč  //50kč
 
 DHT11
-55kč
+55kč //28kc
 
 OLED SSD1306
-98kč
+98kč  //34kč
 
 modul pro 433Mhz komunikaci + přijímač
-98kč
+98kč  //45kc
 
 kapacitní tlačítko
 6kč
 
 motory
-420kč
+420kč //165kc
 
-termistory
-26.40kč
 
 ložiska
-+-200kč
++-200kč  //50kč
 
 3D tištěné díly(hmotnost+odhad)
 300g - 100kč materiál + 100kč energie
@@ -92,4 +90,5 @@ pásy(odhad)
 150kč
 
 CELKEM: 2671,7kč bez dopravy (většina z laskakitu)
+ALIRXPRESS: 1240kč + 200kč tisknuté díly
 
